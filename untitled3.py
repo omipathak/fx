@@ -34,12 +34,12 @@ st.markdown("""
         font-size: 14px;
     }
     h1, h2, h3, h4 {
-        font-size: 18px;
+        font-size: 24px;
         margin-bottom: 10px;
     }
     table, th, td {
         color: #f0f0f0 !important;
-        font-size: 13px;
+        font-size: 14px;
     }
     input, select, textarea {
         background-color: #1f1f1f !important;
@@ -50,7 +50,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- APP HEADER ---
-st.markdown("## Forex Times & Converter")
+st.markdown("## Forex Sessions & Time Zone Converter By OP")
 
 # --- DATE INPUT ---
 selected_date = st.date_input("Select Date", value=datetime.now().date())
