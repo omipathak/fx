@@ -1,1 +1,1 @@
-Use the streamlit app here - https://forexbyop.streamlit.app/
+Use the streamlit app here - https://opsessions.streamlit.app/
